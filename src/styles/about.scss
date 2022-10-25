@@ -1,0 +1,49 @@
+.about{
+  &__container{
+    display: flex;
+    justify-content: space-between;
+    width: 854px;
+    margin: 140px auto 0;
+  }
+
+  &__avatar{
+    align-self: flex-start;
+  }
+}
+
+.resume{
+  &__container{
+    width: 497px;
+  }
+
+  &__greeting{
+    font-weight: 700;
+    line-height: 60px;
+    font-size: 44px;
+    margin-bottom: 40px;
+  }
+
+  &__text{
+    line-height: 23.5px;
+    margin-bottom: 38px;
+  }
+
+  &__button{
+    width: 208px;
+    height: 47px;
+    background-color: #FF6464;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29.38px;
+
+    &:hover{
+      filter: brightness(1.1);
+    }
+
+    &:active{
+      background-color: #E32636;
+    }
+  }
+}

@@ -1,0 +1,69 @@
+.featured{
+  &__container{
+    width: 856px;
+    margin: 0 auto;
+  }
+
+  &__title{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    margin-bottom: 11px;
+  }
+
+  &__item{
+    margin-bottom: 66px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+    &:nth-of-type(1){
+      .featured__theme::before{
+        content: "2020";
+      }
+    }
+
+    &:after{
+      content: "";
+      display: block;
+      position: absolute;
+      bottom: -32px;
+      width: 858px;
+      border: 1px solid #E0E0E0;
+    }
+  }
+
+  &__subtitle{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44.06px;
+    margin-bottom: 16px;
+  }
+
+  &__theme{
+    font-size: 20px;
+    line-height: 29.38px;
+    color: #8695A4;
+    margin-bottom: 17px;
+
+    &::before{
+      content: "2018";
+      background-color: #142850;
+      display: inline-block;
+      width: 62px;
+      height: 25px;
+      text-align: center;
+      vertical-align: center;
+      font-size: 18px;
+      font-weight: 900;
+      color: white;
+      border-radius: 16px;
+      margin-right: 26px;
+    }
+  }
+
+  &__text{
+    width: 594px;
+    line-height: 23.5px;
+  }
+}

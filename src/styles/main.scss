@@ -1,0 +1,60 @@
+@import "about.scss";
+@import "posts.scss";
+@import "featured.scss";
+
+body{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: Heebo, sans-serif;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+h1,h2,h3,p{
+  margin: 0;
+  padding: 0;
+}
+
+.site-nav{
+  &__container{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 60px;
+    margin-top: 27px;
+  }
+
+  &__link{
+    margin-left: 33px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+  }
+}
+
+.footer{
+  margin-top: 115px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.socials{
+  margin-top: 50px;
+  display: flex;
+  gap: 35px;
+}
+
+.copyright{
+  margin-top: 26px;
+  margin-bottom: 54px;
+}
